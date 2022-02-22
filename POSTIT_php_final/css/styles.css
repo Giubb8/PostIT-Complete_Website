@@ -1,0 +1,166 @@
+header{
+    margin: 5%;
+}
+body{
+    background-image: url("../images/cork.jpg");
+    background-color: bisque;
+
+    font-family: 'Kalam', cursive;
+    padding-top: 7%;
+}
+svg{
+    color: rgb(255, 226, 65);
+}
+
+*{
+    box-sizing: border-box;
+}
+input{
+    box-shadow: 10px 10px 14px 0px rgba(0, 0, 0, 0.75);
+    background-color: rgb(255, 226, 65);
+    color: rgb(0, 0, 0);
+    margin: 10px;
+    border: solid rgb(0, 0, 0,0.55);
+    border-width: 0px;
+    border-left-width: 4px;
+    border-right-width: 4px;
+    border-radius: 5%;
+    padding: 10px;
+  }
+
+textarea{
+    box-shadow: 10px 10px 24px 0px rgba(0, 0, 0, 0.75);
+    outline: none;
+    border: none;
+    width: 300px;
+    height: 300px;
+    padding: 40px 25px 25px 25px;
+}
+
+.flex-wrapper {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+.footer{
+    background-color: aliceblue;
+    padding: 25px;
+    box-shadow: 10px 10px 24px 0px rgba(0, 0, 0, 0.75);
+}
+
+.notetitle{
+    text-align: center;
+    font-size: 56px;
+    color: #d18902;
+    
+}
+.messages{
+    color: red;
+}
+
+.button {
+    display: inline-block;
+    padding: 9px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .button:hover {background-color: #3e8e41}
+  
+  .button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  form .button {
+    box-shadow: 10px 10px 14px 0px rgba(0, 0, 0, 0.75);
+    background-color: rgb(255, 226, 65);
+    color: rgb(0, 0, 0);
+    margin: 10px;
+    border: solid rgb(0, 0, 0,0.55);
+    border-width: 0px;
+    border-left-width: 4px;
+    border-right-width: 4px;
+    border-radius: 15px;
+    padding: 10px;
+  }
+/*Container dei postit*/
+.main-container{
+    width: 95%;
+    margin: auto;
+}
+.container1{
+    margin-left: 5%;
+}
+.container2{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin: 5%;
+}
+/*container per il postit dove si inserisce il testo*/
+.container3{
+    display: none; /*il postit viene nascosto all'utente*/
+    position: absolute;
+    top: 30%;
+    left: 40%;
+}
+
+#helpnote{
+    position: absolute;
+    top: 20%;
+    right: 33%;
+    box-shadow: 10px 10px 24px 0px rgba(0, 0, 0, 0.75);
+    font-size: 26px;
+    background-color: rgb(234, 250, 89);
+    outline: none;
+    border: none;
+    width: 600px;
+    height: 600px;
+    padding: 40px 25px 25px 25px;
+}
+#logo{
+    width: 5%;
+    height: 5%;
+}         
+#email{
+    color: rgb(119, 119, 119);
+    font-size: 22px;
+    text-align: left;
+}
+#git{
+    color: rgb(119, 119, 119);
+    font-size: 22px;
+    text-align: center;
+    margin-left: 25%;
+
+}
+#copyright{
+    color: rgb(119, 119, 119);
+    font-size: 22px;
+     float: right;
+
+}
+#iconV{
+    position: absolute;
+    right: 12%;
+    top: 4%;
+}
+#iconX{
+    position: absolute;
+    right: 3%;
+    top: 4%;
+}
+
+
