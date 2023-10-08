@@ -15,6 +15,12 @@ Each profile and post-it will have a unique identifier.
 
 - **Security:** To ensure database security, the project incorporates various security measures. These include the use of prepared statements and proper input validation in user-editable fields. Additionally, the project prioritizes the use of POST methodology over GET when appropriate for enhanced security.
 
+## Some Pictures 📷
+![image info](POSTIT_php_final/images/SignUp.png)![image info](POSTIT_php_final/images/Login.png)![image info](POSTIT_php_final/images/Board.png)
+![image info](POSTIT_php_final/images/Writing.png)
+
+
+
 
 ## Contact 📇
 
